@@ -1,0 +1,72 @@
+# --------------------
+# OS / System
+# --------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --------------------
+# Node
+# --------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --------------------
+# React Native / Expo
+# --------------------
+.expo/
+.expo-shared/
+*.jks
+*.keystore
+
+# --------------------
+# Android
+# --------------------
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/captures/
+android/.idea/
+android/*.iml
+
+# 🚨 VERY IMPORTANT: Android CMake / NDK build artifacts
+android/.cxx/
+android/app/.cxx/
+
+# Android emulator & SDK junk
+.android/
+.emulator_console_auth_token
+adbkey
+adbkey.pub
+
+# --------------------
+# iOS
+# --------------------
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+ios/*.xcodeproj/project.xcworkspace/
+ios/.symlinks/
+ios/DerivedData/
+ios/.idea/
+
+# --------------------
+# Watchman
+# --------------------
+.watchmanconfig
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# Environment files
+# --------------------
+.env
+.env.*
